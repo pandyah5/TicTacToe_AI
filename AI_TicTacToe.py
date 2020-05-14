@@ -113,7 +113,7 @@ def tictactoe(hint, mode):
     x_hint = 0
     o_hint = 0
 
-    if mode == 'ai vs human':
+    if mode.lower() == 'ai vs human':
         human = input("Do you want to be 'X' or 'O': ")
 
         # Checking for valid input
